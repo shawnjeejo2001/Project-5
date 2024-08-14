@@ -1,6 +1,6 @@
-Apply filters to SQL queries
+# Apply filters to SQL queries
 
-Project description
+## Project description
 My organization is working to make their system more secure. It is my job to ensure the system is safe, investigate all potential security issues, and update employee computers as needed. The following steps provide examples of how I used SQL with filters to perform security-related tasks.
 Retrieve after hours failed login attempts
 There was a potential security incident that occurred after business hours (after 18:00). All after hours login attempts that failed need to be investigated.
@@ -57,6 +57,6 @@ The following demonstrates how I created a SQL query to filter for employee mach
 
 
 The first part of the screenshot is my query, and the second part is a portion of the output. The query returns all employees not in the Information Technology department. First, I started by selecting all data from the employees table. Then, I used a WHERE clause with NOT to filter for employees not in this department.
-Summary
+## Summary
 I applied filters to SQL queries to get specific information on login attempts and employee machines. I used two different tables, log_in_attempts and employees. I used the AND, OR, and NOT operators to filter for the specific information needed for each task. I also used LIKE and the percentage sign (%) wildcard to filter for patterns.
 
